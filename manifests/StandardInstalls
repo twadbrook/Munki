@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>conditional_items</key>
+	<array>
+		<dict>
+			<key>condition</key>
+			<string>machine_model BEGINSWITH[cd] "VM"</string>
+			<key>managed_installs</key>
+			<array>
+				<string>beamoff</string>
+				<string>VMwareTools</string>
+			</array>
+		</dict>
+	</array>
+	<key>managed_installs</key>
+	<array>
+		<string>Facter</string>
+		<string>Firefox</string>
+		<string>GoogleChrome</string>
+		<string>HebrewFonts</string>
+		<string>munkitools</string>
+		<string>munkitools_admin</string>
+		<string>munkitools_core</string>
+		<string>munkitools_launchd</string>
+		<string>Office2011</string>
+		<string>Office2011_update</string>
+		<string>TextWrangler</string>
+	</array>
+	<key>managed_updates</key>
+	<array>
+		<string>AdobeFlashPlayer</string>
+		<string>OracleJava8</string>
+	</array>
+</dict>
+</plist>

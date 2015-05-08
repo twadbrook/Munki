@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>_metadata</key>
+	<dict>
+		<key>created_by</key>
+		<string>nmcspadden</string>
+		<key>creation_date</key>
+		<date>2015-05-07T22:33:00Z</date>
+		<key>munki_version</key>
+		<string>2.2.4.2431</string>
+		<key>os_version</key>
+		<string>10.10.3</string>
+	</dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>testing</string>
+	</array>
+	<key>description</key>
+	<string>Facter is an independent, cross-platform Ruby library designed to gather information on all the nodes you will managing with Puppet.</string>
+	<key>display_name</key>
+	<string>Facter</string>
+	<key>installed_size</key>
+	<integer>397</integer>
+	<key>installer_item_hash</key>
+	<string>38e6b8d81110fc405a6d5f578ce42e3a60190fd0faab94eb070d72dd00af1d35</string>
+	<key>installer_item_location</key>
+	<string>support/Facter/Facter-2.4.3.dmg</string>
+	<key>installer_item_size</key>
+	<integer>114</integer>
+	<key>minimum_os_version</key>
+	<string>10.5.0</string>
+	<key>name</key>
+	<string>Facter</string>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>installed_size</key>
+			<integer>397</integer>
+			<key>packageid</key>
+			<string>com.puppetlabs.facter</string>
+			<key>version</key>
+			<string>2.4.3</string>
+		</dict>
+	</array>
+	<key>unattended_install</key>
+	<true/>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>2.4.3</string>
+</dict>
+</plist>

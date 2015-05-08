@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>_metadata</key>
+	<dict>
+		<key>created_by</key>
+		<string>tech</string>
+		<key>creation_date</key>
+		<date>2015-05-08T17:20:50Z</date>
+		<key>munki_version</key>
+		<string>2.2.4.2431</string>
+		<key>os_version</key>
+		<string>10.10.3</string>
+	</dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>testing</string>
+	</array>
+	<key>category</key>
+	<string>Fonts</string>
+	<key>description</key>
+	<string></string>
+	<key>developer</key>
+	<string>Milken</string>
+	<key>display_name</key>
+	<string>HebrewFonts</string>
+	<key>installed_size</key>
+	<integer>4356</integer>
+	<key>installer_item_hash</key>
+	<string>572b43f7f05e70dbcfb876337ef8bb669a312bea0ceb7a32e686a341135b1a53</string>
+	<key>installer_item_location</key>
+	<string>settings/fonts/HebrewFonts-1.0.pkg</string>
+	<key>installer_item_size</key>
+	<integer>2212</integer>
+	<key>minimum_os_version</key>
+	<string>10.5.0</string>
+	<key>name</key>
+	<string>HebrewFonts</string>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>installed_size</key>
+			<integer>4356</integer>
+			<key>packageid</key>
+			<string>org.milkenschool.pkg.fonts.hebrew</string>
+			<key>version</key>
+			<string>1.0</string>
+		</dict>
+	</array>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>1.0</string>
+</dict>
+</plist>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>RestartAction</key>
+	<string>RequireRestart</string>
+	<key>_metadata</key>
+	<dict>
+		<key>created_by</key>
+		<string>nmcspadden</string>
+		<key>creation_date</key>
+		<date>2015-05-08T00:37:30Z</date>
+		<key>munki_version</key>
+		<string>2.2.4.2431</string>
+		<key>os_version</key>
+		<string>10.10.3</string>
+	</dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>testing</string>
+	</array>
+	<key>category</key>
+	<string>Virtualization</string>
+	<key>description</key>
+	<string>With the VMware Tools SVGA driver installed, Workstation supports significantly faster graphics performance.
+
+The VMware Tools package provides support required for shared folders and for drag and drop operations.
+
+Other tools in the package support synchronization of time in the guest operating system with time on the host, automatic grabbing and releasing of the mouse cursor, copying and pasting between guest and host, and improved mouse performance in some guest operating systems.</string>
+	<key>developer</key>
+	<string>VMware</string>
+	<key>display_name</key>
+	<string>VMware Tools</string>
+	<key>installed_size</key>
+	<integer>6382</integer>
+	<key>installer_item_hash</key>
+	<string>0f83a16bc158024fbcb093067ed2e165eddea1e6af48b5c3f67329fb34aed4b9</string>
+	<key>installer_item_location</key>
+	<string>drivers/VMwareTools-9.9.2.iso</string>
+	<key>installer_item_size</key>
+	<integer>2986</integer>
+	<key>minimum_os_version</key>
+	<string>10.5.0</string>
+	<key>name</key>
+	<string>VMwareTools</string>
+	<key>package_path</key>
+	<string>Install VMware Tools.app/Contents/Resources/VMware Tools.pkg</string>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>installed_size</key>
+			<integer>6382</integer>
+			<key>packageid</key>
+			<string>com.vmware.tools.macos.pkg.files</string>
+			<key>version</key>
+			<string>9.9.2</string>
+		</dict>
+	</array>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>9.9.2</string>
+</dict>
+</plist>

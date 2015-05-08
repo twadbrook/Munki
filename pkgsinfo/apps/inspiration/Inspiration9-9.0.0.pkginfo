@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>_metadata</key>
+	<dict>
+		<key>created_by</key>
+		<string>tech</string>
+		<key>creation_date</key>
+		<date>2015-05-08T17:10:56Z</date>
+		<key>munki_version</key>
+		<string>2.2.4.2431</string>
+		<key>os_version</key>
+		<string>10.10.3</string>
+	</dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>testing</string>
+	</array>
+	<key>category</key>
+	<string>Creative</string>
+	<key>description</key>
+	<string></string>
+	<key>developer</key>
+	<string>Inspiration</string>
+	<key>display_name</key>
+	<string>Inspiration 9</string>
+	<key>installer_item_hash</key>
+	<string>76b73ed26a5ec8306ff72961f38d47a5ec9a366e51f9133c73764a24f3649aaf</string>
+	<key>installer_item_location</key>
+	<string>apps/inspiration/Inspiration 9-9.0.0.dmg</string>
+	<key>installer_item_size</key>
+	<integer>174093</integer>
+	<key>installer_type</key>
+	<string>copy_from_dmg</string>
+	<key>installs</key>
+	<array>
+		<dict>
+			<key>path</key>
+			<string>/Applications/Inspiration 9</string>
+			<key>type</key>
+			<string>file</string>
+		</dict>
+	</array>
+	<key>items_to_copy</key>
+	<array>
+		<dict>
+			<key>destination_path</key>
+			<string>/Applications</string>
+			<key>group</key>
+			<string>admin</string>
+			<key>mode</key>
+			<string>go-w</string>
+			<key>source_item</key>
+			<string>Inspiration 9</string>
+			<key>user</key>
+			<string>root</string>
+		</dict>
+	</array>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>Inspiration9</string>
+	<key>uninstall_method</key>
+	<string>remove_copied_items</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>9.0.0</string>
+</dict>
+</plist>

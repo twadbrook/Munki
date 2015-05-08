@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>_metadata</key>
+	<dict>
+		<key>created_by</key>
+		<string>nmcspadden</string>
+		<key>creation_date</key>
+		<date>2015-05-08T17:37:49Z</date>
+		<key>munki_version</key>
+		<string>2.2.4.2431</string>
+		<key>os_version</key>
+		<string>10.10.3</string>
+	</dict>
+	<key>autoremove</key>
+	<false/>
+	<key>blocking_applications</key>
+	<array>
+		<string>Citrix Receiver</string>
+		<string>Safari</string>
+		<string>Firefox</string>
+		<string>Opera</string>
+		<string>Google Chrome</string>
+	</array>
+	<key>catalogs</key>
+	<array>
+		<string>testing</string>
+	</array>
+	<key>category</key>
+	<string>Virtualization</string>
+	<key>description</key>
+	<string>Access your content from any device with Citrix Receiver, the enterprise mobility solution that delivers a high def experience simply and securely.</string>
+	<key>developer</key>
+	<string>Citrix Systems, Inc.</string>
+	<key>display_name</key>
+	<string>Citrix Receiver</string>
+	<key>installed_size</key>
+	<integer>106146</integer>
+	<key>installer_item_hash</key>
+	<string>6692611b7698a84dd1b70d09e4ed6d9e1ac400816915c70b32ca2b08d8a38faf</string>
+	<key>installer_item_location</key>
+	<string>internet_plugins/CitrixReceiverWeb-11.9.15.dmg</string>
+	<key>installer_item_size</key>
+	<integer>35349</integer>
+	<key>installs</key>
+	<array>
+		<dict>
+			<key>CFBundleShortVersionString</key>
+			<string>11.9.15</string>
+			<key>CFBundleVersion</key>
+			<string>305779</string>
+			<key>path</key>
+			<string>/Library/Internet Plug-Ins/CitrixICAClientPlugIn.plugin</string>
+			<key>type</key>
+			<string>bundle</string>
+			<key>version_comparison_key</key>
+			<string>CFBundleShortVersionString</string>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.citrix.receiver.nomas</string>
+			<key>CFBundleName</key>
+			<string>Citrix Receiver</string>
+			<key>CFBundleShortVersionString</key>
+			<string>11.9.15</string>
+			<key>CFBundleVersion</key>
+			<string>305779</string>
+			<key>minosversion</key>
+			<string>10.7</string>
+			<key>path</key>
+			<string>/Applications/Citrix Receiver.app</string>
+			<key>type</key>
+			<string>application</string>
+			<key>version_comparison_key</key>
+			<string>CFBundleShortVersionString</string>
+		</dict>
+	</array>
+	<key>minimum_os_version</key>
+	<string>10.6.0</string>
+	<key>name</key>
+	<string>CitrixReceiver</string>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>installed_size</key>
+			<integer>106146</integer>
+			<key>packageid</key>
+			<string>com.citrix.ICAClient</string>
+			<key>version</key>
+			<string>11.9.15</string>
+		</dict>
+	</array>
+	<key>unattended_install</key>
+	<true/>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>11.9.15</string>
+</dict>
+</plist>

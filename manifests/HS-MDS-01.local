@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>catalogs</key>
+	<array>
+		<string>testing</string>
+	</array>
+	<key>conditional_items</key>
+	<array>
+		<dict>
+			<key>condition</key>
+			<string>machine_model BEGINSWITH[cd] "VM"</string>
+		</dict>
+	</array>
+	<key>managed_installs</key>
+	<array>
+		<string>AdobeFlashPlayer</string>
+		<string>munkitools</string>
+		<string>munkitools_admin</string>
+		<string>munkitools_core</string>
+		<string>munkitools_launchd</string>
+	</array>
+	<key>managed_updates</key>
+	<array>
+		<string>AdobeFlashPlayer</string>
+		<string>OracleJava8</string>
+	</array>
+	<key>optional_installs</key>
+	<array>
+		<string>AdobeAcrobatPro9_Update</string>
+		<string>AdobeFlashPlayer</string>
+		<string>Facter</string>
+		<string>Firefox</string>
+		<string>GoogleChrome</string>
+		<string>Office2011_update</string>
+		<string>OracleJava8</string>
+		<string>TextWrangler</string>
+	</array>
+</dict>
+</plist>

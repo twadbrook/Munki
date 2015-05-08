@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>_metadata</key>
+	<dict>
+		<key>created_by</key>
+		<string>tech</string>
+		<key>creation_date</key>
+		<date>2015-05-08T18:17:23Z</date>
+		<key>munki_version</key>
+		<string>2.2.4.2431</string>
+		<key>os_version</key>
+		<string>10.10.3</string>
+	</dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>testing</string>
+	</array>
+	<key>category</key>
+	<string>MakerLab</string>
+	<key>description</key>
+	<string></string>
+	<key>developer</key>
+	<string>Maker</string>
+	<key>display_name</key>
+	<string>MakerBot Bundle BETA 3.6.0.64</string>
+	<key>installed_size</key>
+	<integer>607523</integer>
+	<key>installer_item_hash</key>
+	<string>bfcfbf71334ac1cf5a505edd5badc0378ff4f2cb7cf0b9af22d0a09091e6818e</string>
+	<key>installer_item_location</key>
+	<string>apps/maker/MakerBot Bundle BETA 3.6.0.64.pkg</string>
+	<key>installer_item_size</key>
+	<integer>308475</integer>
+	<key>minimum_os_version</key>
+	<string>10.5.0</string>
+	<key>name</key>
+	<string>MakerBot</string>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>installed_size</key>
+			<integer>162271</integer>
+			<key>packageid</key>
+			<string>com.makerbot.MakerWare</string>
+			<key>version</key>
+			<string>3.6.0</string>
+		</dict>
+		<dict>
+			<key>installed_size</key>
+			<integer>17291</integer>
+			<key>packageid</key>
+			<string>com.makerbot.Digitizer</string>
+			<key>version</key>
+			<string>3.6.0</string>
+		</dict>
+		<dict>
+			<key>installed_size</key>
+			<integer>427961</integer>
+			<key>packageid</key>
+			<string>com.makerbot.core</string>
+			<key>version</key>
+			<string>0</string>
+		</dict>
+	</array>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>3.6.0.64</string>
+</dict>
+</plist>
