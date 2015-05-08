@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>_metadata</key>
+	<dict>
+		<key>created_by</key>
+		<string>nmcspadden</string>
+		<key>creation_date</key>
+		<date>2015-03-09T21:53:07Z</date>
+		<key>munki_version</key>
+		<string>2.2.0.2406</string>
+		<key>os_version</key>
+		<string>10.10.2</string>
+	</dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>testing</string>
+		<string>release</string>
+	</array>
+	<key>category</key>
+	<string>Updates - Garage Band</string>
+	<key>description</key>
+	<string>GarageBand Premium Content</string>
+	<key>developer</key>
+	<string>Apple</string>
+	<key>display_name</key>
+	<string>GarageBand Premium Content</string>
+	<key>installed_size</key>
+	<integer>896801</integer>
+	<key>installer_item_hash</key>
+	<string>3a436c8f6826ed42b405b368ca05e3923e477c270506b418c4fcd062d1469658</string>
+	<key>installer_item_location</key>
+	<string>updates/apple/MAContent10_GarageBandPremiumContent-1.0.0.0.1.1256150330.pkg</string>
+	<key>installer_item_size</key>
+	<integer>1081547</integer>
+	<key>minimum_os_version</key>
+	<string>10.9.0</string>
+	<key>name</key>
+	<string>MAContent10_GarageBandPremiumContent</string>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>installed_size</key>
+			<integer>1379695</integer>
+			<key>packageid</key>
+			<string>com.apple.pkg.MAContent10_GarageBandPremiumContent</string>
+			<key>version</key>
+			<string>1.0.0.0.1.1256150330</string>
+		</dict>
+	</array>
+	<key>requires</key>
+	<array>
+		<string>GarageBand</string>
+	</array>
+	<key>unattended_install</key>
+	<true/>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>update_for</key>
+	<array>
+		<string>GarageBand</string>
+	</array>
+	<key>version</key>
+	<string>1.0.0.0.1.1256150330</string>
+</dict>
+</plist>

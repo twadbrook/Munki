@@ -18,14 +18,19 @@
 	<array>
 		<string>Facter</string>
 		<string>Firefox</string>
+		<string>GarageBand</string>
 		<string>GoogleChrome</string>
 		<string>HebrewFonts</string>
+		<string>iMovie</string>
+		<string>iPhoto</string>
+		<string>Keynote</string>
 		<string>munkitools</string>
 		<string>munkitools_admin</string>
 		<string>munkitools_core</string>
 		<string>munkitools_launchd</string>
+		<string>Numbers</string>
 		<string>Office2011</string>
-		<string>Office2011_update</string>
+		<string>Pages</string>
 		<string>TextWrangler</string>
 	</array>
 	<key>managed_updates</key>

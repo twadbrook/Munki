@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>_metadata</key>
+	<dict>
+		<key>created_by</key>
+		<string>nmcspadden</string>
+		<key>creation_date</key>
+		<date>2015-04-13T17:08:50Z</date>
+		<key>munki_version</key>
+		<string>2.2.4.2431</string>
+		<key>os_version</key>
+		<string>10.10.3</string>
+	</dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>testing</string>
+	</array>
+	<key>category</key>
+	<string>Tool</string>
+	<key>description</key>
+	<string>Developer site version</string>
+	<key>developer</key>
+	<string>Apple</string>
+	<key>display_name</key>
+	<string>Xcode 6</string>
+	<key>icon_hash</key>
+	<string>63335bbd502efafcf22aa06bae616de9918504390188796ef226e719764a0385</string>
+	<key>installer_item_hash</key>
+	<string>bd069add402a1bf2a7cd9d8b2e33a7a4d864be64eb054ed6b432ee7a7c65d0c0</string>
+	<key>installer_item_location</key>
+	<string>apps/apple/Xcode_6.3.dmg</string>
+	<key>installer_item_size</key>
+	<integer>2702130</integer>
+	<key>installer_type</key>
+	<string>copy_from_dmg</string>
+	<key>installs</key>
+	<array>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.dt.Xcode</string>
+			<key>CFBundleName</key>
+			<string>Xcode</string>
+			<key>CFBundleShortVersionString</key>
+			<string>6.3</string>
+			<key>CFBundleVersion</key>
+			<string>7569</string>
+			<key>minosversion</key>
+			<string>10.10</string>
+			<key>path</key>
+			<string>/Applications/Xcode.app</string>
+			<key>type</key>
+			<string>application</string>
+			<key>version_comparison_key</key>
+			<string>CFBundleShortVersionString</string>
+		</dict>
+	</array>
+	<key>items_to_copy</key>
+	<array>
+		<dict>
+			<key>destination_path</key>
+			<string>/Applications</string>
+			<key>source_item</key>
+			<string>Xcode.app</string>
+		</dict>
+	</array>
+	<key>minimum_os_version</key>
+	<string>10.10</string>
+	<key>name</key>
+	<string>Xcode6</string>
+	<key>postinstall_script</key>
+	<string>#!/bin/sh
+# make sure all users on this machine are members of the _developer group
+/usr/sbin/dseditgroup -o edit -a everyone -t group _developer
+# enable developer mode
+/usr/sbin/DevToolsSecurity -enable
+# accept Xcode license
+/Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -license accept
+# install embedded packages
+for PKG in `/bin/ls /Applications/Xcode.app/Contents/Resources/Packages/*.pkg` ; do
+    /usr/sbin/installer -pkg "$PKG" -target /
+done
+    </string>
+	<key>unattended_install</key>
+	<true/>
+	<key>uninstall_method</key>
+	<string>remove_copied_items</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>6.3</string>
+</dict>
+</plist>
